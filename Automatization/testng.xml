@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Alior Kantor 4.0">
+
+	<listeners>
+		<listener class-name="configs.Listeners"/>
+	</listeners>
+
+	<test name="Testy Automatyczne Poziomu C - Zaawansowane Kantoru 4.0">
+		<classes>
+			<class name="test.java.TC001MainSiteCheck"/>
+		</classes>
+	</test> 
+
+</suite>
